@@ -1,0 +1,23 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+
+public class tempJava {
+	static int sum(int num1, int num2) {
+		if (num1 == 0)
+			throw new ArithmeticException("First parameter is not valid");
+		else
+			System.out.println("Both parameters are correct!!");
+		return num1 + num2;
+	}
+
+	public static void main(String args[]) {
+	      String [] names = {"James", "Larry", "Tom", "Lacy"};
+
+	      for( String name : names ) {
+	         System.out.print( name );
+	         System.out.print(",");
+	}
+}
