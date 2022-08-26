@@ -1,9 +1,0 @@
-public static void main(String args[]) {
-		GreetingService service = new GreetingService(){
-			public void sayMessage(String message){
-				System.out.printf("GreetingService - sayMessage() " + message);
-			}	
-};
-		service.sayMessage("Anonymous Class");
-	}
-	interface GreetingService {		void sayMessage(String message);	}
