@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class JWEArrayList {
+public class ArrayLists {
 
     public static void main(String[] args) {
 
