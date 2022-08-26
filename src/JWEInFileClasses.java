@@ -1,10 +1,11 @@
-package jwe_JavaBasic;
+// package jwe_JavaBasic;
 
 import java.util.ArrayList;
 
 public class JWEInFileClasses {
 
 	static int temp;
+
 	public static void main(String[] args) {
 		ArrayList<Fruits> mFruitsList = new ArrayList<Fruits>();
 		mFruitsList.add(new Fruits());

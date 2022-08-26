@@ -1,4 +1,4 @@
-package jwe_JavaBasic;
+// package jwe_JavaBasic;
 
 import java.util.Arrays;
 import java.util.Iterator;
@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class JWEHashSet {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         // We create a new, empty set
         Set<String> mySet1 = new java.util.HashSet<>();
         // We add a few elements
@@ -66,6 +66,6 @@ public class JWEHashSet {
         // Creating an Array with the contents of the set
         String[] array = mySet2.toArray(new String[mySet2.size()]);
         System.out.println("The array:" + Arrays.toString(array));
-	}
+    }
 
 }

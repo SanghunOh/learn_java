@@ -1,4 +1,4 @@
-package jwe_JavaBasic;
+// package jwe_JavaBasic;
 
 import java.util.InputMismatchException;
 import java.util.Locale;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class JWEScannerUncommon {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         // Parsing primitive numbers
         boolean bl = new Scanner("false").nextBoolean();
         byte b = new Scanner("16").nextByte();
@@ -15,9 +15,9 @@ public class JWEScannerUncommon {
         float f = new Scanner("4.2").nextFloat();
         double d = new Scanner("99.99999999").nextDouble();
         String s = new Scanner("This is good programming.").next();
- 
+
         System.out.printf("/***** ScannerUncommon *****/\n\n");
-        System.out.println("boolean: "+ bl);
+        System.out.println("boolean: " + bl);
         System.out.println("byte: " + b);
         System.out.printf("int: %d\n", n);
         System.out.printf("long: %d\n", l);
@@ -29,12 +29,12 @@ public class JWEScannerUncommon {
         try {
             double doubleLocale = new Scanner("1.234,56").useLocale(
                     Locale.ITALIAN).nextDouble();
- 
+
             System.out.printf("/***** Using Locales to parse numbers in specific languages *****/\n\n");
             System.out.printf("double (Locale = Italy): %f", doubleLocale);
         } catch (InputMismatchException ime) {
             ime.printStackTrace(System.err);
         }
-	}
+    }
 
 }
