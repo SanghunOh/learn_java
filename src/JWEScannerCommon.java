@@ -17,5 +17,7 @@ public class JWEScannerCommon {
                 System.out.printf("checkNumber: %d\n", checkNumber);
                 System.out.printf("description: %s\n", description);
                 System.out.printf("amount: " + amount);
+
+                scanner.close();
         }
 }
