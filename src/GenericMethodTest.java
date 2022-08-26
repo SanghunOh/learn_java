@@ -1,10 +1,11 @@
 public class GenericMethodTest {
 	static void throwMethod() throws NullPointerException {
 		System.out.printf("Inside throwMethod");
-		if(false) {
-		throw new NullPointerException("throwMethod() Exception.");
+		if (false) {
+			throw new NullPointerException("throwMethod() Exception.");
 		}
 	}
+
 	public static void main(String args[]) {
 		try {
 			throwMethod();
@@ -16,8 +17,8 @@ public class GenericMethodTest {
 }
 
 class GreetingService {
-	public int sayMessage(int x, int y){
-		int sum = x - y ;
+	public int sayMessage(int x, int y) {
+		int sum = x - y;
 		return sum;
-		}	
+	}
 }

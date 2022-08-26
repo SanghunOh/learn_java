@@ -1,11 +1,3 @@
-// package jwe_JavaBasic;
-
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-
 public class ArrayListWithSum {
 	static int sum(int num1, int num2) {
 		if (num1 == 0)
