@@ -1,6 +1,7 @@
 ## Getting Started
 
 - [How to Install & Run Java in Visual Studio Code (Under 5 minutes) {2022}](https://youtu.be/fbyobdxDQno)
+- [Java & MySQL](https://www.tutorialspoint.com/java_mysql/java_mysql_environment.htm)
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
