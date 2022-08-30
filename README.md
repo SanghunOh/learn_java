@@ -1,6 +1,7 @@
 ## Getting Started
 
 - [How to Install & Run Java in Visual Studio Code (Under 5 minutes) {2022}](https://youtu.be/fbyobdxDQno)
+- Extension Pack for Java with VSCode
 - [Java & MySQL](https://www.tutorialspoint.com/java_mysql/java_mysql_environment.htm)
 - [VSCode: Add MySQL JAR file to Java Project using Visual Studio Code](https://youtu.be/MtME-ERufu0)
 
