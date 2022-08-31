@@ -1,8 +1,9 @@
 ## Getting Started
 
 - [How to Install & Run Java in Visual Studio Code (Under 5 minutes) {2022}](https://youtu.be/fbyobdxDQno)
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- [SQLite - Java](https://www.tutorialspoint.com/sqlite/sqlite_java.htm)
+- [vscode plugin 인 ERD Editor 를 설치](https://www.steemcoinpan.com/hive-101145/@wonsama/table)
+  Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
 ## Folder Structure
 
