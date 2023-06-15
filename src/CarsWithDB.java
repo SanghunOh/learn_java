@@ -12,8 +12,8 @@ public class CarsWithDB {
         try {
             // - MySQL workbench 실행 : JDBC
             // - User/password와 접속 IP:port 접속
-            String url = "jdbc:mysql://127.0.0.1:3306/db_cars";
-            String user = "root";
+            String url = "jdbc:mysql://192.168.0.30:3306/db_cars";
+            String user = "yojulab";
             String password = "!yojulab*";
 
             Connection connection = DriverManager.getConnection(url, user, password);
